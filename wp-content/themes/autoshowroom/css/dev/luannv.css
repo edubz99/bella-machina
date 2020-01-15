@@ -1,0 +1,290 @@
+.service2 .service_title h2 em {
+  font-style: normal;
+  color: #DAA520;
+  font-weight: 700;
+}
+.service2 .service_title p {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.service2 .autoshowroom-our-process {
+  padding-top: 50px;
+}
+.service2 .autoshowroom-our-process h3.autoshowroom-name-process {
+  margin-bottom: 8px;
+}
+.service2 .autoshowroom-our-process h3.autoshowroom-name-process span {
+  margin-bottom: 5px;
+}
+.service2 .autoshowroom-our-process p.autoshowroom-description-process {
+  margin-bottom: 15px;
+  color: #bebebe;
+  font-size: 14px;
+  line-height: 25px;
+}
+.service2 .autoshowroom-our-process a.autoshowroom_readmore:hover {
+  color: #DAA520 !important;
+}
+.service2 .alignleft {
+  margin: 0px;
+}
+.service2 .tzElement_viewService {
+  margin: 0px 108px;
+  padding-bottom: 125px;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item {
+  padding-bottom: 60px;
+  background-color: #ffffff;
+  margin: 0 10px 0 10px;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item .tzView_Service_Image {
+  margin-bottom: 24px;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item .tzView_Service_Image img {
+  height: auto;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item .tzView_Service_Content {
+  position: relative;
+  text-align: center;
+  padding: 0 5px;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item .tzView_Service_Content span {
+  font-size: 85px;
+  color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item .tzView_Service_Content h3.tzView_Service_Content_title {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #2d2d2d;
+  letter-spacing: 1px;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item .tzView_Service_Content p {
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #868686;
+  line-height: 25px;
+  padding: 0px 24px;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item .tzView_Service_Content a.tzViewService-readmore {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding: 12px 37px 12px 37px;
+  background-color: #222222;
+  border-radius: 3px;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .tzView_Service_Slide_Item .tzView_Service_Content a.tzViewService-readmore:hover {
+  background-color: #DAA520;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .owl-controls {
+  margin: 0;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .owl-controls .owl-buttons .owl-prev {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: #000000;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: -55px;
+  margin: -20px 0 0;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .owl-controls .owl-buttons .owl-prev i {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 38px;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .owl-controls .owl-buttons .owl-next {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: #000000;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  right: -55px;
+  margin: -20px 0 0;
+}
+.service2 .tzElement_viewService .tzView_Service_Slide .owl-controls .owl-buttons .owl-next i {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 38px;
+}
+.service2 .vc_custom_1552898762686 {
+  padding-top: 100px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+}
+.service2 .owl-prev {
+  color: #ffffff;
+  top: 50%;
+  left: -95px;
+  position: absolute;
+}
+.service2 .owl-prev i {
+  font-size: 17px;
+}
+.service2 .owl-prev:hover {
+  background-color: #DAA520;
+}
+.service2 .owl-next {
+  top: 50%;
+  right: -95px;
+  position: absolute;
+  color: #ffffff;
+}
+.service2 .owl-next i {
+  font-size: 17px;
+}
+.service2 .owl-next:hover {
+  background-color: #DAA520;
+}
+.service2 .autoshowroom-title-center .AutoshowroomTitle h2 em {
+  color: #DAA520 !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+}
+.service2 .autoshowroom-text-box {
+  padding: 0;
+}
+.service2 .service_process_text {
+  background-image: url(http://wordpress.templaza.net/update/autoshowroom/wp-content/uploads/2019/03/Layer-104-1.jpg?id=2833);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 852px;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  z-index: 0;
+}
+.service2 .service_process_text::after {
+  background: #000000;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.service2 .service_process_text img {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .service2 .service_title p {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .service2 .tzElement_viewService {
+    margin: 0px;
+    padding: 0px;
+  }
+  .service2 .tzElement_viewService .owl-next {
+    display: none !important;
+  }
+  .service2 .tzElement_viewService .owl-prev {
+    display: none !important;
+  }
+  .service2 .service_process_text {
+    padding-right: 0px;
+    padding-left: 0px;
+    height: auto;
+  }
+  .service2 .service_process_text .service_textbox {
+    display: none;
+  }
+  .service2 .vc_empty_space {
+    display: none;
+  }
+  .service2 .autoshowroom-text-box .text-box-desc img {
+    display: none;
+  }
+  .service2 .autoshowroom-our-process .autoshowroom-counter-icon {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .service2 .service_title p {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .service2 .tzElement_viewService {
+    margin: 0px;
+    padding: 0px;
+  }
+  .service2 .tzElement_viewService .owl-next {
+    display: none !important;
+  }
+  .service2 .tzElement_viewService .owl-prev {
+    display: none !important;
+  }
+  .service2 .service_process_text {
+    padding-right: 10%;
+    padding-left: 9%;
+    height: auto;
+    display: flex;
+  }
+  .service2 .service_process_text .service_textbox {
+    display: none;
+  }
+  .service2 .autoshowroom-text-box {
+    padding: 0;
+    display: none;
+  }
+  .service2 .autoshowroom-text-box .text-box-desc img {
+    display: none;
+  }
+  .service2 .autoshowroom-our-process .autoshowroom-counter-icon {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .service2 .service_title p {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .service2 .service_process_text {
+    padding-right: 10%;
+    padding-left: 9%;
+  }
+  .service2 .autoshowroom-text-box .text-box-desc img {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 1401px) {
+  .service2 .service_title p {
+    padding-right: 500px;
+    padding-left: 500px;
+  }
+  .service2 .tzElement_viewService {
+    padding-right: 250px;
+    padding-left: 250px;
+  }
+  .service2 .service_process_text {
+    padding-right: 300px;
+    padding-left: 350px;
+  }
+}
+/*# sourceMappingURL=luannv.css.map */

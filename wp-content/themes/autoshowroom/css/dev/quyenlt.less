@@ -1,0 +1,461 @@
+.about-us {
+  strong {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #222222;
+  }
+
+  p {
+    font-family: Muli;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #565656;
+  }
+  .autoshowroom-title.autoshowroom-title-left p {
+    margin-top: 25px;
+  }
+  .autoshowroom-title h2.AutoshowroomTitle {
+    margin-bottom: 44px;
+  }
+
+  .autoshowroom-lightgallery {
+    margin-top: -34px;
+  }
+
+  .autoshowroom-service {
+
+    .autoshowroom-service-icon {
+      width: 50px;
+      height: 50px;
+      padding: 15px 0;
+      margin-top: 31px;
+
+      i {
+        font-size: 15px;
+      }
+    }
+
+    h3.autoshowroom-service-title {
+      margin-left: 75px;
+      margin-top: -80px;
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 22px;
+      color: #222222;
+    }
+
+    p.autoshowroom-service-description {
+      margin-left: 75px;
+      margin-top: -15px;
+      font-family: Muli;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      color: #565656;
+    }
+  }
+
+  .speaker_box {
+    box-shadow: 0px 1px 2px -1px;
+    margin: 10px;
+    height: 360px;
+    background: white;
+
+    .autoshowroom_member {
+      background: white;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h4 {
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #222222;
+    }
+
+    h5 {
+      font-family: Muli;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+      color: #a7a7a7;
+    }
+  }
+
+  .autoshowroom_member_image {
+    position: relative;
+    transition: 0.35s ease;
+    -webkit-transition: 0.35s ease;
+    -o-transition: 0.35s ease;
+    -moz-transition: 0.35s ease;
+
+    &:hover {
+      .autoshowroom_member_content {
+        opacity: 1;
+        -webkit-transition: all 0.35s ease;
+        -o-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.5);
+          -webkit-transition: all 0.35s ease;
+          -o-transition: all 0.35s ease;
+          -moz-transition: all 0.35s ease;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      -webkit-transition: all 0.35s ease;
+      -o-transition: all 0.35s ease;
+      -moz-transition: all 0.35s ease;
+    }
+
+    .autoshowroom_member_content {
+      padding: 20px 30px;
+      padding-top: 63px;
+      position: absolute;
+      top: 0px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+      z-index: 9;
+      -webkit-transition: all 0.35s ease;
+      -o-transition: all 0.35s ease;
+      -moz-transition: all 0.35s ease;
+
+      &:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0);
+        transition: all 0.35s ease;
+        -webkit-transition: all 0.35s ease;
+        -o-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+        z-index: -1;
+      }
+
+      p {
+        margin-bottom: 8px;
+        color: #e4e4e4;
+        font-family: Muli;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;
+        padding-top: 9px;
+      }
+
+      h6 {
+        color: #e4e4e4;
+        font-family: Muli;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        text-transform: lowercase;
+      }
+
+      span {
+        color: #DAA520;
+        font-family: Muli;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;
+        text-transform: capitalize;
+      }
+
+      .autoshowroom_social {
+        padding-top: 10px;
+        margin-left: -7px;
+
+        i {
+          color: #e4e4e4;
+          font-size: 18px;
+          line-height: 22px;
+          margin: 0 7px;
+          -webkit-transition: all 1s ease;
+          -o-transition: all 1s ease;
+          -moz-transition: all 1s ease;
+
+          &:hover {
+            color: #DAA520;
+            -webkit-transition: all 1s ease;
+            -o-transition: all 1s ease;
+            -moz-transition: all 1s ease;
+          }
+        }
+      }
+    }
+  }
+
+  .autoshowroom-title.autoshowroom-title-center {
+    p {
+      font-size: 15px;
+      line-height: 22px;
+      margin-top: -17px;
+    }
+  }
+
+  .autoshowroom-counter .autoshowroom-counter-box .autoshowroom-counter-icon i {
+    color: #DAA520;
+    opacity: 0.2;
+  }
+
+  em {
+    font-style: normal;
+    color: #DAA520;
+    font-weight: 700;
+  }
+
+  .autoshowroom-contact-overlay {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 44px 0;
+  }
+
+  .wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .about-us {
+    .autoshowroom-service .autoshowroom-service-icon {
+      margin-left: 20px;
+    }
+
+    .autoshowroom-service p.autoshowroom-service-description {
+      margin-left: 90px;
+    }
+
+    .autoshowroom-service h3.autoshowroom-service-title {
+      margin-left: 90px;
+    }
+
+    .speaker_box {
+      width: 175px;
+      height: 290px;
+    }
+
+    .autoshowroom_member_image {
+      img {
+        height: 210px;
+      }
+
+      .autoshowroom_member_content {
+        padding: 20px 4px;
+        padding-top: 45px;
+
+        h6 {
+          font-size: 9px;
+        }
+
+        p {
+          font-size: 9px;
+          padding-top: 3px;
+        }
+
+        .autoshowroom_social {
+          padding-top: 0px;
+
+          i {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .autoshowroom-contact .autoshowroom-contact-overlay .autoshowroom-contact-content .autoshowroom-contact-message {
+      font-size: 20px;
+      margin-top: 5px;
+    }
+
+    .autoshowroom-contact .autoshowroom-contact-overlay .autoshowroom-contact-content a.autoshowroom-contact-button {
+      font-size: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-us {
+    .autoshowroom-lightgallery {
+      margin-top: 0px;
+    }
+
+    .autoshowroom-lightgallery ul li img.light-thumb {
+      height: 359px;
+    }
+
+    .autoshowroom-service .autoshowroom-service-icon {
+      margin-left: 20px;
+    }
+
+    .autoshowroom-service p.autoshowroom-service-description {
+      margin-left: 90px;
+    }
+
+    .autoshowroom-service h3.autoshowroom-service-title {
+      margin-left: 90px;
+    }
+
+
+    .speaker_box {
+      width: 265px;
+      height: 330px;
+      margin: 20px auto;
+    }
+
+    .autoshowroom_member_image {
+      img {
+        height: 245px;
+      }
+
+      .autoshowroom_member_content .autoshowroom_social {
+        padding-top: 0px;
+      }
+    }
+
+    .autoshowroom-contact .autoshowroom-contact-overlay .autoshowroom-contact-content .autoshowroom-contact-message {
+      font-size: 20px;
+      margin-top: 5px;
+    }
+
+    .autoshowroom-contact .autoshowroom-contact-overlay .autoshowroom-contact-content a.autoshowroom-contact-button {
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .about-us {
+    .autoshowroom-lightgallery ul li img.light-thumb {
+      height: 223px;
+    }
+
+    .autoshowroom-service .autoshowroom-service-icon {
+      margin-left: 20px;
+    }
+
+    .autoshowroom-service p.autoshowroom-service-description {
+      margin-left: 90px;
+    }
+
+    .autoshowroom-service h3.autoshowroom-service-title {
+      margin-left: 90px;
+    }
+
+    .speaker_box {
+      width: 230px;
+      height: 300px;
+      margin: 20px 27%;
+    }
+
+    .autoshowroom_member_image {
+      img {
+        height: 225px;
+      }
+
+      .autoshowroom_member_content {
+        padding-top: 50px;
+
+        h6 {
+          font-size: 9px;
+        }
+
+        p {
+          font-size: 9px;
+          padding-top: 3px;
+        }
+
+        .autoshowroom_social {
+          padding-top: 0px;
+
+          i {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    .autoshowroom-contact .autoshowroom-contact-overlay .autoshowroom-contact-content .autoshowroom-contact-message {
+      font-size: 15px;
+      padding-top: 40px;
+    }
+
+    .autoshowroom-contact .autoshowroom-contact-overlay .autoshowroom-contact-content a.autoshowroom-contact-button {
+      font-size: 5px;
+      margin-top: -25px;
+    }
+  }
+}
+
+@media (max-width: 365px) {
+  .about-us {
+    .autoshowroom-lightgallery ul li img.light-thumb {
+      height: 223px;
+    }
+
+    .autoshowroom-service .autoshowroom-service-icon {
+      width: 45px;
+      height: 45px;
+      margin-left: 20px;
+      padding: 13px 0;
+    }
+    .autoshowroom-service p.autoshowroom-service-description {
+      margin-right: 7px;
+    }
+    .speaker_box {
+      width: 250px;
+      margin: 20px 60px;
+      height: 300px;
+      h4 {
+        font-size: 16px;
+      }
+      h5 {
+        font-size: 12px;
+      }
+    }
+    .autoshowroom_member_image {
+      img {
+        height: 225px;
+      }
+      .autoshowroom_member_content {
+        padding-top: 45px;
+        h6 {
+          font-size: 9px;
+        }
+        p {
+          font-size: 9px;
+          padding-top: 3px;
+        }
+        .autoshowroom_social {
+          padding-top: 0px;
+          i {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .autoshowroom-contact .autoshowroom-contact-overlay .autoshowroom-contact-content .autoshowroom-contact-message {
+      font-size: 10px;
+      padding-top: 0px;
+    }
+  }
+}
+

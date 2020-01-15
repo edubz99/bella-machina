@@ -1,0 +1,36 @@
+node_modules/
+
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+*.so
+#Content from old site
+wp-content/uploads/Media 
+
+
+.DS_Store
+node_modules/
+*.log
+haters/
+.idea/

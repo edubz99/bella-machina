@@ -1,0 +1,69 @@
+/* Autoshowroom Blog */
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .grid-col-2 {
+  width: 50%;
+  float: left;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item {
+  padding: 0;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item .autoshowroom-blog-item-wrap {
+  border: 0 !important;
+  padding: 0;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item .autoshowroom-blog-item-wrap .autoshowroom-blog-item-content {
+  padding: 0;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item .autoshowroom-blog-item-wrap .autoshowroom-blog-item-content p {
+  padding: 10px  30px 20px 30px;
+  margin: 0;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item .autoshowroom-blog-item-wrap .autoshowroom-blog-item-content .autoshowroom-blog-item-title {
+  padding: 0 30px;
+  line-height: normal;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item .autoshowroom-blog-item-wrap .autoshowroom-blog-item-content .autoshowroom-blog-item-title:after {
+  display: none;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item .autoshowroom-blog-item-wrap .autoshowroom-blog-item-content .autoshowroom-blog-item-title a {
+  font-size: 18px;
+  line-height: 24px;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item .autoshowroom-blog-item-wrap .autoshowroom-blog-item-content .autoshowroom-blog-item-img {
+  margin-bottom: 25px;
+}
+.autoshowroom-blog .autoshowroom-blog-body.autoshowroom-style-grid .autoshowroom-blog-item .autoshowroom-blog-item-wrap .autoshowroom-blog-item-content .autoshowroom-blog-item-Info {
+  margin-bottom: 10px;
+  padding: 0 30px;
+}
+.autoshowroom-blog .autoshowroom-blog-body .autoshowroom-blog-pagenavi .wp-pagenavi{
+  padding: 0 15px;
+  margin-left: -5px;
+  padding-top: 55px;
+  padding-bottom: 27px;
+}
+.grid-col-3{
+  float: left;
+  width: 28%;
+  height: auto;
+  margin: 15px;
+  padding-bottom: 20px;
+}
+.grid-col-2 {
+  padding: 15px 15px !important;
+}
+@media (max-width: 480px){
+   .grid-col-2{
+    width: 100%;
+  }
+   .grid-col-3{
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 650px){
+ .grid-col-2{
+    width: 44%;
+  }
+  .grid-col-3{
+    width: 44%;
+  }
+}

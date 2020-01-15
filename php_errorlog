@@ -1,0 +1,2 @@
+[17-Dec-2019 21:54:37 UTC] wp_auto_login: trying to login user_id==1 loginusername=admin to admin_url=http://bellamachina.co.uk/wp-admin/
+[17-Dec-2019 21:57:19 UTC] wp_auto_login: trying to login user_id==1 loginusername=admin to admin_url=https://bellamachina.co.uk/wp-admin/
